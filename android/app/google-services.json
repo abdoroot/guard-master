@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "153049795520",
+    "project_id": "guard-master-2e8fe",
+    "storage_bucket": "guard-master-2e8fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153049795520:android:c9847c3988c01052ba5625",
+        "android_client_info": {
+          "package_name": "com.coder.guard_master"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153049795520-p4inh1fnflt4g0a0debf0i46r1nhhdl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlO83HSE2DAlbcyPFxcagGT2ypGyG49dA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153049795520-p4inh1fnflt4g0a0debf0i46r1nhhdl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
