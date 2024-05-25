@@ -68,7 +68,7 @@ class DefaultFirebaseOptions {
     projectId: 'guard-master-2e8fe',
     storageBucket: 'guard-master-2e8fe.appspot.com',
     iosClientId: '153049795520-9p0n2pl4g24kl0m2qdf8ucv1if5d9rtj.apps.googleusercontent.com',
-    iosBundleId: 'com.example.guardMaster',
+    iosBundleId: 'com.coder.guardmaster',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -78,6 +78,6 @@ class DefaultFirebaseOptions {
     projectId: 'guard-master-2e8fe',
     storageBucket: 'guard-master-2e8fe.appspot.com',
     iosClientId: '153049795520-7cl0v2jr5bv6a9hcv8j9cj3snk3u79v0.apps.googleusercontent.com',
-    iosBundleId: 'com.example.guardMaster.RunnerTests',
+    iosBundleId: 'com.coder.guardmaster.RunnerTests',
   );
 }
