@@ -1,0 +1,7 @@
+workflows:
+    sample-workflow:
+        name: iOS Sample Workflow 
+        environment:
+            flutter: stable
+        max_build_duration: 120
+        instance_type: mac_mini_m1
