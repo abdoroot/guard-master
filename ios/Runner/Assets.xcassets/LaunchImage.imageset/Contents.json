@@ -6,6 +6,14 @@
       "scale" : "1x"
     },
     {
+      "size": "167x167",
+      "expected-size": "167",
+      "filename": "Icon-App-167x167.png",
+      "folder": "Assets.xcassets/AppIcon.appiconset/",
+      "idiom": "iphone",
+      "scale": "3x"
+    },
+    {
       "idiom" : "universal",
       "filename" : "LaunchImage@2x.png",
       "scale" : "2x"
