@@ -46,6 +46,10 @@
 			<string>UIInterfaceOrientationLandscapeLeft</string>
 			<string>UIInterfaceOrientationLandscapeRight</string>
 		</array>
+		<key>UIDeviceFamily</key>
+		<array>
+			<integer>1</integer> <!-- iPhone -->
+		</array>
 		<key>UIViewControllerBasedStatusBarAppearance</key>
 		<false />
 		<key>CADisableMinimumFrameDurationOnPhone</key>
