@@ -6,6 +6,11 @@
 		<array>
 			<string>sms</string>
 			<string>tel</string>
+			<!-- Add schemes used by Firebase Auth for URL redirects -->
+			<string>153049795520-5qrk9e608kqpvp39vf94pqqljh3a5mi8.apps.googleusercontent.com</string> <!-- Replace with your app's specific URL scheme -->
+			<string>guard-master-2e8fe.appspot.com</string> <!-- Replace with your app's specific URL scheme -->
+			<string>fb</string>
+			<string>twitter</string>
 		</array>
 		<key>NSPhotoLibraryUsageDescription</key>
 		<string>This app requires access to your photo library to allow you to upload photos.</string>
@@ -43,13 +48,6 @@
 			<string>UIInterfaceOrientationLandscapeLeft</string>
 			<string>UIInterfaceOrientationLandscapeRight</string>
 		</array>
-		<!-- <key>UISupportedInterfaceOrientations~ipad</key>
-		<array>
-			<string>UIInterfaceOrientationPortrait</string>
-			<string>UIInterfaceOrientationPortraitUpsideDown</string>
-			<string>UIInterfaceOrientationLandscapeLeft</string>
-			<string>UIInterfaceOrientationLandscapeRight</string>
-		</array> -->
 		<key>UIDeviceFamily</key>
 		<array>
 			<integer>1</integer> <!-- iPhone -->
@@ -60,5 +58,34 @@
 		<true />
 		<key>UIApplicationSupportsIndirectInputEvents</key>
 		<true />
+		<!-- Firebase Configuration -->
+		<key>FirebaseAppDelegateProxyEnabled</key>
+		<true /> <!-- Enable Firebase App Delegate Proxy -->
+		<key>FirebaseScreenReportingEnabled</key>
+		<false /> <!-- Disable automatic screen reporting to avoid unwanted analytics logs -->
+
+		<!-- Permissions required for Firebase Auth -->
+		<key>NSCameraUsageDescription</key>
+		<string>This app requires access to the camera to take photos for profile and document upload.</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>This app requires your location to provide location-based services and improve user experience.</string>
+		<key>NSLocationAlwaysUsageDescription</key>
+		<string>This app requires your location to provide location-based services even when the app is not in use.</string>
+
+		<!-- Background Fetch and Remote Notifications -->
+		<key>UIBackgroundModes</key>
+		<array>
+			<string>fetch</string> <!-- Background Fetch -->
+			<string>remote-notification</string> <!-- Remote Notification -->
+		</array>
+		<key>UIBackgroundFetchInterval</key>
+		<integer>900</integer> <!-- Background fetch interval in seconds (15 minutes) -->
+
+		<!-- Remote Notification Permissions -->
+		<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsArbitraryLoads</key>
+			<true/>
+		</dict>
 	</dict>
 </plist>
