@@ -123,6 +123,7 @@ class LoginController extends GetxController {
 
   Future<UserModel?>? updateData(String accountType, String uid) async {
     UserModel? user;
+    await Future.delayed(Duration(seconds: 1));
     final String? fcm = await _notificationFirebaseImpl.getFCMToken();
 
     if (fcm != null) {
