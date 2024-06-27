@@ -60,7 +60,7 @@
 		<true />
 		<!-- Firebase Configuration -->
 		<key>FirebaseAppDelegateProxyEnabled</key>
-		<true /> <!-- Enable Firebase App Delegate Proxy -->
+		<string>false</string>
 		<key>FirebaseScreenReportingEnabled</key>
 		<false /> <!-- Disable automatic screen reporting to avoid unwanted analytics logs -->
 

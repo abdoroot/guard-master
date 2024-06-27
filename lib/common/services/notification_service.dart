@@ -51,7 +51,7 @@ class NotificationServiceImpl implements NotificationService {
 
   @override
   Future<String?>? getFCMToken() async {
-    await Future.delayed(Duration(seconds: 1));
+    //await Future.delayed(Duration(seconds: 1));
     return await _firebaseMessaging.getToken();
   }
 
